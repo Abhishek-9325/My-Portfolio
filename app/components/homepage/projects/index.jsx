@@ -23,7 +23,7 @@ const Projects = () => {
       </div>
 
       <div className="pt-24">
-        <div className="tabs flex flex-wrap gap-3 justify-center items-center pb-5">
+        <div className="tabs flex flex-wrap gap-3 justify-center items-center pb-7">
           {tabs.map((tab, index) => (
             <Tab
               key={index}
