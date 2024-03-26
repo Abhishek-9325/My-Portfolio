@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: rgb(211, 216, 232);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: #0d1224;
+}
+
+#sticky-card-1 {
+  --index: 1;
+}
+
+#sticky-card-2 {
+  --index: 2;
+}
+
+#sticky-card-3 {
+  --index: 3;
+}
+
+#sticky-card-4 {
+  --index: 4;
+}
+
+.sticky-card {
+  // padding-top: calc(var(--index) * 2.5rem);
+  top: calc(var(--index) * 4rem);
+}
+
+.tab-content-wrapper {
+  overflow: hidden;
+}
+
+.tab-content {
+  opacity: 0;
+  height: 0;
+  transition: opacity 0.5s ease, height 0.5s ease;
+}
+
+.tab-content.active {
+  opacity: 1;
+  height: auto; /* Adjust as needed */
+}
+
+// hamburger css
+@media screen and (max-width: 600px) {
+  .mob-menu {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.35s ease;
+  }
+  .mob-menu.active {
+    opacity: 1;
+    flex-direction: column;
+    height: fit-content;
+    max-height: 100%;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    z-index: 99;
+    background-color: #0d1224;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 20px;
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+  }
+}
