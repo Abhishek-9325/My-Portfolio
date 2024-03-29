@@ -96,8 +96,7 @@ export const personalData = {
   address: "Pune, Maharashtra, India",
   github: "https://github.com/Abhishek-9325",
   linkedIn: "https://www.linkedin.com/in/abhishek-mourya-b48a27289",
-  resume:
-    "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing",
+  resume: "#",
 };
 ```
 
