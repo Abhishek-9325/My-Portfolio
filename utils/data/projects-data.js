@@ -126,7 +126,7 @@ export const projectsData = [
       "Embark on a cinematic journey with my project fueled by the TMDb API and brought to life with React. From blockbuster hits to hidden gems, discover a world of movies and TV shows at your fingertips. Through this project, I've learned and implemented the intricacies of API integration, data retrieval and manipulation, as well as invaluable insights into user experience design.",
     tools: ["React", "Redux", "GIT", "SCSS", "React Router", "GIT"],
     code: "",
-    demo: "https://movix-mu-gold.vercel.app/",
+    demo: "https://movie-site-five-psi.vercel.app/",
     image: movix,
     role: "Full Stack Developer",
   },
