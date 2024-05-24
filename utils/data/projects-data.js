@@ -1,7 +1,3 @@
-import ayla from "/public/image/ayla.jpg";
-import crefin from "/public/image/crefin.jpg";
-import realEstate from "/public/image/real-estate.jpg";
-import travel from "/public/image/travel.jpg";
 import sany from "/public/image/sany.png";
 import hrone from "/public/image/hrone.png";
 import technovate from "/public/image/technovate.png";
@@ -13,8 +9,36 @@ import mern from "/public/image/mern.png";
 import plane from "/public/image/3d_plane.png";
 import movix from "/public/image/movix.png";
 import shoe_store from "/public/image/shoe_store.png";
+import zygal from "/public/image/Zygal.png";
+import ecomStore from "/public/image/ECOM-STORE.png";
+import MERNCHAT from "/public/image/MERN-CHAT.png";
 
 export const projectsData = [
+  // {
+  //   id: 1,
+  //   name: "Ecommerce Store",
+  //   description:
+  //     "A full-stack MERN e-commerce application designed to showcase my skills and passion for web development.Integrated with Stripe for secure payments, this project highlights my ability to integrate third-party services. In the midst of development, this project has been an invaluable learning experience, providing deep insights into the intricate process of building a standalone full-stack application",
+  //   tools: [
+  //     "MongoDB",
+  //     "Mongoose",
+  //     "NodeJS",
+  //     "ExpressJS",
+  //     "React18",
+  //     "Redux",
+  //     "GIT",
+  //     "Tailwind CSS",
+  //     "React Router",
+  //     "Passport JS",
+  //     "Passport JWT",
+  //     "Nodemailer",
+  //     "Stripe",
+  //   ],
+  //   role: "Full Stack Developer",
+  //   code: "",
+  //   demo: "",
+  //   image: mern,
+  // },
   {
     id: 1,
     name: "Ecommerce Store",
@@ -26,19 +50,21 @@ export const projectsData = [
       "NodeJS",
       "ExpressJS",
       "React18",
+      "Zustand",
+      "React Query",
       "Redux",
       "GIT",
       "Tailwind CSS",
+      "SCSS",
       "React Router",
-      "Passport JS",
-      "Passport JWT",
-      "Nodemailer",
       "Stripe",
+      "NextJS",
+      "Typescript",
     ],
     role: "Full Stack Developer",
     code: "",
-    demo: "",
-    image: mern,
+    demo: "https://ecomstore-frontend.vercel.app/",
+    image: ecomStore,
   },
   {
     id: 2,
@@ -58,19 +84,40 @@ export const projectsData = [
     ],
     code: "",
     role: "Full Stack Developer",
-    demo: "",
+    demo: "https://shoe-store-frontend-tfec.vercel.app/",
     image: shoe_store,
   },
+  // {
+  //   id: 3,
+  //   name: "3D Portfolio",
+  //   description:
+  //     "Step into my virtual world with a 3D portfolio inspired by the captivating design of sites like Atmos. This immersive experience goes beyond the traditional static portfolio, inviting visitors to explore my work in a dynamic and visually stunning environment. From stunning visuals to seamless navigation, every element is meticulously crafted to showcase my projects in an engaging and memorable way.",
+  //   tools: ["React", "ThreeJS", "React Three Fiber", "3D Models"],
+  //   role: "Full Stack Developer",
+  //   code: "",
+  //   demo: "",
+  //   image: plane,
+  // },
   {
     id: 3,
-    name: "3D Portfolio",
+    name: "MERN Chat App",
     description:
-      "Step into my virtual world with a 3D portfolio inspired by the captivating design of sites like Atmos. This immersive experience goes beyond the traditional static portfolio, inviting visitors to explore my work in a dynamic and visually stunning environment. From stunning visuals to seamless navigation, every element is meticulously crafted to showcase my projects in an engaging and memorable way.",
-    tools: ["React", "ThreeJS", "React Three Fiber", "3D Models"],
+      "Dive into the world of real-time communication with my MERN chat application. This project leverages the power of Socket.io to enable seamless messaging between users, creating a dynamic and interactive chat experience. From real-time updates to secure authentication, this project showcases my expertise in building robust and engaging applications.",
+    tools: [
+      "React",
+      "NodeJS",
+      "ExpressJS",
+      "Socket.io",
+      "MongoDB",
+      "Mongoose",
+      "GIT",
+      "Chakra UI",
+      "React Router",
+    ],
     role: "Full Stack Developer",
     code: "",
-    demo: "",
-    image: plane,
+    demo: "https://mern-chat-app-4d9o.onrender.com/",
+    image: MERNCHAT,
   },
   {
     id: 4,
@@ -79,7 +126,7 @@ export const projectsData = [
       "Embark on a cinematic journey with my project fueled by the TMDb API and brought to life with React. From blockbuster hits to hidden gems, discover a world of movies and TV shows at your fingertips. Through this project, I've learned and implemented the intricacies of API integration, data retrieval and manipulation, as well as invaluable insights into user experience design.",
     tools: ["React", "Redux", "GIT", "SCSS", "React Router", "GIT"],
     code: "",
-    demo: "",
+    demo: "https://movix-mu-gold.vercel.app/",
     image: movix,
     role: "Full Stack Developer",
   },
@@ -94,7 +141,7 @@ export const wordpressProjectsData = [
     tools: ["PHP", "MySQL", "SCSS", "JQuery", "JS", "GIT", "NPM", "GULP"],
     role: "Frontend Developer",
     code: "",
-    demo: "",
+    demo: "https://www.sany.in/",
     image: sany,
   },
   {
@@ -115,30 +162,30 @@ export const wordpressProjectsData = [
     ],
     role: "Frontend Developer",
     code: "",
-    demo: "",
+    demo: "https://hrone.cloud/",
     image: hrone,
   },
   {
     id: 3,
     name: "LandGlobal",
     description:
-      "The LandGlobal website, crafted by our team, is a premier online destination for real estate enthusiasts and investors seeking lucrative opportunities worldwide. With a sleek and intuitive design, LandGlobal offers a comprehensive platform to explore a diverse range of properties, including residential, commercial, and investment properties in various locations across the globe",
+      "The LandGlobal website is a premier online destination for real estate enthusiasts and investors seeking lucrative opportunities worldwide. With a sleek and intuitive design, LandGlobal offers a comprehensive platform to explore a diverse range of properties, including residential, commercial, and investment properties in various locations across the globe",
     tools: ["PHP", "MySQL", "SCSS", "JQuery", "JS", "GIT", "NPM", "GULP"],
     role: "Frontend Developer",
     code: "",
-    demo: "",
+    demo: "https://land.global/",
     image: landglobal,
   },
   {
     id: 4,
-    name: "Technovate",
+    name: "Zygal",
     description:
-      "The Technovate website, currently under development by our dedicated team, is poised to revolutionize the digital landscape. Stay tuned as we work tirelessly to bring you a dynamic online experience that will redefine the way you engage with technology. Leveraging the power of animations, our team is diligently crafting dynamic visual experiences that will captivate visitors.",
-    tools: ["PHP", "MySQL", "SCSS", "JQuery", "JS", "GIT", "NPM", "GULP"],
+      "I adeptly utilized Elementor, a powerful drag-and-drop page builder for WordPress, to craft a visually stunning and user-friendly interface for Zygal's website. Leveraging Elementor's extensive features and customization options, I seamlessly integrated dynamic elements and interactive components, showcasing my proficiency in harnessing cutting-edge web development tools to create an engaging online presence.",
+    tools: ["PHP", "MySQL", "JS", "CSS", "Elementor"],
     role: "Frontend Developer",
     code: "",
-    demo: "",
-    image: technovate,
+    demo: "https://aiot.zygal.io/",
+    image: zygal,
   },
 ];
 
@@ -160,7 +207,7 @@ export const shopifyProjectsData = [
     ],
     role: "Full Stack Developer",
     code: "",
-    demo: "",
+    demo: "https://shop.symphonylimited.com/",
     image: symphony,
   },
   {
@@ -180,7 +227,7 @@ export const shopifyProjectsData = [
     ],
     role: "Full Stack Developer",
     code: "",
-    demo: "",
+    demo: "https://amarantha.in/",
     image: ari,
   },
   {
@@ -191,7 +238,7 @@ export const shopifyProjectsData = [
     tools: ["Shopify-CLI", "ThemeKit", "GIT", "JQuery", "JS"],
     role: "Full Stack Developer",
     code: "",
-    demo: "",
+    demo: "https://www.nisargaherbs.com/",
     image: nisarg,
   },
 ];
