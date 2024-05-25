@@ -52,7 +52,6 @@ export const projectsData = [
       "React18",
       "Zustand",
       "React Query",
-      "Redux",
       "GIT",
       "Tailwind CSS",
       "SCSS",

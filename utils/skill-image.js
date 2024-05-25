@@ -75,6 +75,8 @@ import wordpress from "/public/svg/skills/wordpress.svg";
 import sass from "/public/svg/skills/sass.svg";
 import nodeJS from "/public/svg/skills/nodeJS.svg";
 import shopify from "/public/svg/skills/shopify.svg";
+import gsap from "/public/svg/skills/gsap.svg";
+import threeJS from "/public/svg/skills/threeJS.png";
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -233,6 +235,10 @@ export const skillsImage = (skill) => {
       return canva;
     case "shopify":
       return shopify;
+    case "gsap":
+      return gsap;
+    case "three js":
+      return threeJS;
     default:
       break;
   }
