@@ -10,5 +10,5 @@ export const personalData = {
   github: "https://github.com/Abhishek-9325",
   linkedIn: "https://www.linkedin.com/in/abhishek-mourya-b48a27289",
   resume:
-    "https://drive.google.com/file/d/15hzueA6x-IEQuZppCUfYZVWG2O0Wjt6e/view?usp=sharing",
+    "https://drive.google.com/file/d/1dMbIQdr-yjzfBTvZjF5y8nZ4VJgAgAoC/view?usp=sharing",
 };
