@@ -6,6 +6,7 @@ export const skillsData = [
   "React",
   "Next JS",
   "Node JS",
+  "SpringBoot",
   "Tailwind",
   "SASS",
   "MongoDB",

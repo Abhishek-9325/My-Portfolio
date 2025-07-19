@@ -77,6 +77,7 @@ import nodeJS from "/public/svg/skills/nodeJS.svg";
 import shopify from "/public/svg/skills/shopify.svg";
 import gsap from "/public/svg/skills/gsap.svg";
 import threeJS from "/public/svg/skills/threeJS.png";
+import springboot from "/public/svg/skills/spring_boot.svg";
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -103,6 +104,8 @@ export const skillsImage = (skill) => {
       return javascript;
     case "node js":
       return nodeJS;
+    case "springboot":
+      return springboot;
     case "next js":
       return nextJS;
     case "nuxt js":
