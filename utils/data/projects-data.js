@@ -12,6 +12,8 @@ import shoe_store from "/public/image/shoe_store.png";
 import zygal from "/public/image/Zygal.png";
 import ecomStore from "/public/image/ECOM-STORE.png";
 import MERNCHAT from "/public/image/MERN-CHAT.png";
+import tutopia from "/public/image/tutopia.png";
+import bmwtecworks from "/public/image/BMW-TechWorks.png";
 
 export const projectsData = [
   // {
@@ -41,9 +43,27 @@ export const projectsData = [
   // },
   {
     id: 1,
+    name: "Tutopia",
+    description:
+      "A Bengali-medium educational platform catering to students of Classes 7–12. The platform offers online purchase of live class subscriptions, printed smart notes, and spoken English courses. Integrated a smooth checkout experience using Razorpay for payments and collaborated with backend APIs built in ASP.NET. Focused on delivering a responsive, fast, and accessible user interface using Next.js and Material UI.",
+    tools: [
+      "NextJS",
+      "React18",
+      "GIT",,
+      "Razorpay",
+      "ASP.NET",
+      "Material UI"
+    ],
+    role: "Frontend Developer",
+    code: "",
+    demo: "https://shop.tutopialearningapp.com/",
+    image: tutopia,
+  },
+  {
+    id: 2,
     name: "Ecommerce Store",
     description:
-      "A full-stack MERN e-commerce application designed to showcase my skills and passion for web development.Integrated with Stripe for secure payments, this project highlights my ability to integrate third-party services. In the midst of development, this project has been an invaluable learning experience, providing deep insights into the intricate process of building a standalone full-stack application",
+      "A full-stack MERN e-commerce application designed to showcase my skills and passion for web development.Integrated with Stripe for secure payments, this project highlights my ability to integrate third-party services. In the midst of development, this project has been an invaluable learning experience, providing deep insights into the intricate process of building a standalone full-stack application.",
     tools: [
       "MongoDB",
       "Mongoose",
@@ -66,7 +86,7 @@ export const projectsData = [
     image: ecomStore,
   },
   {
-    id: 2,
+    id: 3,
     name: "Shoes Collection Store",
     description:
       "Step into a stylish world of online shopping with my project — an e-commerce store crafted using Next.js and Tailwind CSS. Featuring a curated collection of shoes and powered by Strapi with Stripe integration for secure payments, this project seamlessly blends style and functionality. Through building this platform, I gained invaluable insights into integrating and working with headless CMS, enhancing my skills and expertise along the way.",
@@ -98,7 +118,7 @@ export const projectsData = [
   //   image: plane,
   // },
   {
-    id: 3,
+    id: 4,
     name: "MERN Chat App",
     description:
       "Dive into the world of real-time communication with my MERN chat application. This project leverages the power of Socket.io to enable seamless messaging between users, creating a dynamic and interactive chat experience. From real-time updates to secure authentication, this project showcases my expertise in building robust and engaging applications.",
@@ -119,7 +139,7 @@ export const projectsData = [
     image: MERNCHAT,
   },
   {
-    id: 4,
+    id: 5,
     name: "Movix",
     description:
       "Embark on a cinematic journey with my project fueled by the TMDb API and brought to life with React. From blockbuster hits to hidden gems, discover a world of movies and TV shows at your fingertips. Through this project, I've learned and implemented the intricacies of API integration, data retrieval and manipulation, as well as invaluable insights into user experience design.",
@@ -134,9 +154,20 @@ export const projectsData = [
 export const wordpressProjectsData = [
   {
     id: 1,
+    name: "BMW TechWorks India",
+    description:
+      "Our team has built and styled a custom WordPress theme for BMW TechWorks India, a joint venture between BMW and Tata Technologies. I implemented interactive animations and a responsive layout, and automated build tools, delivering a polished, performance-optimized website that aligns with the brand’s corporate voice.",
+    tools: ["PHP", "MySQL", "SCSS", "JQuery", "JS", "GIT", "NPM", "GULP", "GSAP"],
+    role: "Frontend Developer",
+    code: "",
+    demo: "https://bmwtechworks-2025.wpstaging.amura.in/",
+    image: bmwtecworks,
+  },
+  {
+    id: 2,
     name: "SANY",
     description:
-      "Out team has built this visually stunning site for sany india using wordpress CMS. I have worked on this as one of the primary frontend developers. Sany India's website serves as a comprehensive online platform showcasing the company's innovative range of construction machinery and equipment.",
+      "Our team has built this visually stunning site for sany india using wordpress CMS. I have worked on this as one of the primary frontend developers. Sany India's website serves as a comprehensive online platform showcasing the company's innovative range of construction machinery and equipment.",
     tools: ["PHP", "MySQL", "SCSS", "JQuery", "JS", "GIT", "NPM", "GULP"],
     role: "Frontend Developer",
     code: "",
@@ -144,7 +175,7 @@ export const wordpressProjectsData = [
     image: sany,
   },
   {
-    id: 2,
+    id: 3,
     name: "HRONE",
     description:
       "The HRONE website is a dynamic platform designed by our team to revolutionize human resources management for modern businesses. I have created lot of animations for this site, parallax effect, a timeline section that moves horizontally as you scroll and a header that is very dynamic and yet customizable.",
@@ -165,10 +196,10 @@ export const wordpressProjectsData = [
     image: hrone,
   },
   {
-    id: 3,
+    id: 4,
     name: "LandGlobal",
     description:
-      "The LandGlobal website is a premier online destination for real estate enthusiasts and investors seeking lucrative opportunities worldwide. With a sleek and intuitive design, LandGlobal offers a comprehensive platform to explore a diverse range of properties, including residential, commercial, and investment properties in various locations across the globe",
+      "The LandGlobal website is a premier online destination for real estate enthusiasts and investors seeking lucrative opportunities worldwide. With a sleek and intuitive design, LandGlobal offers a comprehensive platform to explore a diverse range of properties, including residential, commercial, and investment properties in various locations across the globe.",
     tools: ["PHP", "MySQL", "SCSS", "JQuery", "JS", "GIT", "NPM", "GULP"],
     role: "Frontend Developer",
     code: "",
@@ -176,7 +207,7 @@ export const wordpressProjectsData = [
     image: landglobal,
   },
   {
-    id: 4,
+    id: 5,
     name: "Zygal",
     description:
       "I adeptly utilized Elementor, a powerful drag-and-drop page builder for WordPress, to craft a visually stunning and user-friendly interface for Zygal's website. Leveraging Elementor's extensive features and customization options, I seamlessly integrated dynamic elements and interactive components, showcasing my proficiency in harnessing cutting-edge web development tools to create an engaging online presence.",
@@ -233,7 +264,7 @@ export const shopifyProjectsData = [
     id: 3,
     name: "Nisarg Herbs",
     description:
-      "Welcome to the Nisargherbs website, where nature meets wellness. As a trusted provider of herbal products and supplements, Nisargherbs has been empowering individuals on their journey to holistic health for years. Our website serves as a comprehensive hub for those seeking natural remedies and wellness solutions",
+      "Welcome to the Nisargherbs website, where nature meets wellness. As a trusted provider of herbal products and supplements, Nisargherbs has been empowering individuals on their journey to holistic health for years. Our website serves as a comprehensive hub for those seeking natural remedies and wellness solutions.",
     tools: ["Shopify-CLI", "ThemeKit", "GIT", "JQuery", "JS"],
     role: "Full Stack Developer",
     code: "",
