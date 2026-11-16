@@ -5,18 +5,46 @@ import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
-// const inter = Inter({ subsets: ["latin"] });
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Abhishek Mourya Portfolio | React Developer",
+  title: "Abhishek Mourya | Senior Frontend Developer",
   description:
-    "This is the portfolio of Abhishek Mourya. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "Portfolio of Abhishek Mourya, Senior Frontend Developer with 4+ years of experience specializing in React.js, Next.js, TypeScript, performance optimization, and scalable web architectures.",
+  keywords: [
+    "Abhishek Mourya",
+    "Senior Frontend Developer",
+    "React.js Developer",
+    "Next.js Developer",
+    "TypeScript",
+    "Frontend Engineer",
+    "Portfolio",
+    "Web Developer",
+    "Pune",
+  ],
+  authors: [{ name: "Abhishek Mourya" }],
+  creator: "Abhishek Mourya",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    title: "Abhishek Mourya | Senior Frontend Developer",
+    description:
+      "Senior Frontend Developer with 4+ years of experience building and optimizing scalable web applications using React.js, Next.js, and TypeScript.",
+    siteName: "Abhishek Mourya Portfolio",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Abhishek Mourya | Senior Frontend Developer",
+    description:
+      "Senior Frontend Developer with 4+ years of experience specializing in React.js, Next.js, TypeScript, and modern frontend architecture.",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className={inter.className}>
         <ToastContainer />
         <main className="min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white">
           <Navbar />

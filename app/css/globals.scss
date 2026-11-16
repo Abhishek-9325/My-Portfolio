@@ -54,7 +54,7 @@ body {
 }
 
 // hamburger css
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .mob-menu {
     opacity: 0;
     visibility: hidden;
@@ -66,14 +66,17 @@ body {
     height: fit-content;
     max-height: 100%;
     position: absolute;
-    top: 55px;
+    top: 65px;
     left: 0;
+    width: 100%;
     z-index: 99;
     background-color: #0d1224;
+    border-bottom: 1px solid #1f223c;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 25px;
     opacity: 1;
     visibility: visible;
     display: flex;

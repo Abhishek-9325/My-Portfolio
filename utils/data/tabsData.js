@@ -3,7 +3,7 @@ import Shopify from "@/app/components/helper/tabs/shopify";
 import Wordpress from "@/app/components/helper/tabs/wordpress";
 
 export const tabs = [
-  { label: "React", content: <ReactProjects /> },
-  { label: "Wordpress", content: <Wordpress /> },
+  { label: "React & Next.js", content: <ReactProjects /> },
+  { label: "WordPress", content: <Wordpress /> },
   { label: "Shopify", content: <Shopify /> },
 ];

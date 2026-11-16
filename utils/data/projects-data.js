@@ -1,153 +1,94 @@
 import sany from "/public/image/sany.png";
 import hrone from "/public/image/hrone.png";
-import technovate from "/public/image/technovate.png";
 import landglobal from "/public/image/landglobal.png";
 import symphony from "/public/image/symphony.png";
 import nisarg from "/public/image/nisarg.png";
 import ari from "/public/image/ari.png";
-import mern from "/public/image/mern.png";
-import plane from "/public/image/3d_plane.png";
 import movix from "/public/image/movix.png";
 import shoe_store from "/public/image/shoe_store.png";
-import zygal from "/public/image/Zygal.png";
-import ecomStore from "/public/image/ECOM-STORE.png";
-import MERNCHAT from "/public/image/MERN-CHAT.png";
 import tutopia from "/public/image/tutopia.png";
 import bmwtecworks from "/public/image/BMW-TechWorks.png";
+import MERNCHAT from "/public/image/MERN-CHAT.png";
 
 export const projectsData = [
-  // {
-  //   id: 1,
-  //   name: "Ecommerce Store",
-  //   description:
-  //     "A full-stack MERN e-commerce application designed to showcase my skills and passion for web development.Integrated with Stripe for secure payments, this project highlights my ability to integrate third-party services. In the midst of development, this project has been an invaluable learning experience, providing deep insights into the intricate process of building a standalone full-stack application",
-  //   tools: [
-  //     "MongoDB",
-  //     "Mongoose",
-  //     "NodeJS",
-  //     "ExpressJS",
-  //     "React18",
-  //     "Redux",
-  //     "GIT",
-  //     "Tailwind CSS",
-  //     "React Router",
-  //     "Passport JS",
-  //     "Passport JWT",
-  //     "Nodemailer",
-  //     "Stripe",
-  //   ],
-  //   role: "Full Stack Developer",
-  //   code: "",
-  //   demo: "",
-  //   image: mern,
-  // },
   {
     id: 1,
-    name: "Tutopia",
+    name: "Shopify Invoice Automation",
+    badge: "Featured",
     description:
-      "A Bengali-medium educational platform catering to students of Classes 7–12. The platform offers online purchase of live class subscriptions, printed smart notes, and spoken English courses. Integrated a smooth checkout experience using Razorpay for payments and collaborated with backend APIs built in ASP.NET. Focused on delivering a responsive, fast, and accessible user interface using Next.js and Material UI.",
-    tools: [
-      "NextJS",
-      "React18",
-      "GIT",,
-      "Razorpay",
-      "ASP.NET",
-      "Material UI"
+      "Developed two custom applications for client-specific invoice processing by integrating Shopify APIs with background job queues and batch-processing workflows.",
+    tools: ["Next.js", "Shopify APIs", "Background Job Queues", "Batch Workflows", "REST APIs"],
+    contributions: [
+      "Integrated Shopify APIs for invoice-processing workflows.",
+      "Implemented background processing and batch operations.",
+      "Added retry-with-backoff mechanisms to improve reliability when processing failures occurred.",
     ],
-    role: "Frontend Developer",
     code: "",
-    demo: "https://shop.tutopialearningapp.com/",
-    image: tutopia,
+    demo: "",
+    isFeatured: true,
   },
   {
     id: 2,
-    name: "Ecommerce Store",
+    name: "Kylas CRM – Delhivery Integration",
+    badge: "Featured",
     description:
-      "A full-stack MERN e-commerce application designed to showcase my skills and passion for web development.Integrated with Stripe for secure payments, this project highlights my ability to integrate third-party services. In the midst of development, this project has been an invaluable learning experience, providing deep insights into the intricate process of building a standalone full-stack application.",
-    tools: [
-      "MongoDB",
-      "Mongoose",
-      "NodeJS",
-      "ExpressJS",
-      "React18",
-      "Zustand",
-      "React Query",
-      "GIT",
-      "Tailwind CSS",
-      "SCSS",
-      "React Router",
-      "Stripe",
-      "NextJS",
-      "Typescript",
+      "Developed a Next.js-based integration application connecting Kylas CRM with Delhivery to streamline shipment creation and fulfilment workflows.",
+    tools: ["Next.js", "REST APIs", "Kylas CRM", "Delhivery APIs", "Barcode Generation"],
+    contributions: [
+      "Individual and bulk shipment creation workflows.",
+      "Integration with third-party logistics and shipping APIs.",
+      "Failure handling and barcode shipping-label generation and printing.",
     ],
-    role: "Frontend Engineer",
     code: "",
-    demo: "https://ecomstore-frontend.vercel.app/",
-    image: ecomStore,
+    demo: "",
+    isFeatured: true,
   },
   {
     id: 3,
+    name: "SEO Reporting Dashboard",
+    badge: "Featured",
+    description:
+      "Built a centralised SEO reporting dashboard that enabled QA teams to manage client projects, monitor multiple pages and schedule automated performance audits.",
+    tools: ["Next.js", "Google PageSpeed Insights API", "Automation", "Performance Auditing"],
+    contributions: [
+      "Centralised client and page management.",
+      "Automated performance audit scheduling.",
+      "Centralised reporting and monitoring.",
+    ],
+    impact: "Reduced monthly reporting effort from approximately one working day to one hour.",
+    code: "",
+    demo: "",
+    isFeatured: true,
+  },
+  {
+    id: 4,
     name: "Shoes Collection Store",
     description:
-      "Step into a stylish world of online shopping with my project — an e-commerce store crafted using Next.js and Tailwind CSS. Featuring a curated collection of shoes and powered by Strapi with Stripe integration for secure payments, this project seamlessly blends style and functionality. Through building this platform, I gained invaluable insights into integrating and working with headless CMS, enhancing my skills and expertise along the way.",
-    tools: [
-      "React",
-      "NextJS",
-      "Strapi Headless CMS",
-      "Stripe",
-      "Tailwind CSS",
-      "SCSS",
-      "Redux",
-      "GIT",
-      "React Router",
-    ],
+      "Modern e-commerce storefront crafted with Next.js and Tailwind CSS, featuring Strapi Headless CMS integration and Stripe for secure checkout.",
+    tools: ["Next.js", "React", "Strapi Headless CMS", "Stripe", "Tailwind CSS", "Redux", "Git"],
     code: "",
-    role: "Frontend Engineer",
     demo: "https://shoe-store-frontend-tfec.vercel.app/",
     image: shoe_store,
   },
-  // {
-  //   id: 3,
-  //   name: "3D Portfolio",
-  //   description:
-  //     "Step into my virtual world with a 3D portfolio inspired by the captivating design of sites like Atmos. This immersive experience goes beyond the traditional static portfolio, inviting visitors to explore my work in a dynamic and visually stunning environment. From stunning visuals to seamless navigation, every element is meticulously crafted to showcase my projects in an engaging and memorable way.",
-  //   tools: ["React", "ThreeJS", "React Three Fiber", "3D Models"],
-  //   role: "Full Stack Developer",
-  //   code: "",
-  //   demo: "",
-  //   image: plane,
-  // },
-  {
-    id: 4,
-    name: "MERN Chat App",
-    description:
-      "Dive into the world of real-time communication with my MERN chat application. This project leverages the power of Socket.io to enable seamless messaging between users, creating a dynamic and interactive chat experience. From real-time updates to secure authentication, this project showcases my expertise in building robust and engaging applications.",
-    tools: [
-      "React",
-      "NodeJS",
-      "ExpressJS",
-      "Socket.io",
-      "MongoDB",
-      "Mongoose",
-      "GIT",
-      "Chakra UI",
-      "React Router",
-    ],
-    role: "Frontend Engineer",
-    code: "",
-    demo: "https://mern-chat-app-4d9o.onrender.com/",
-    image: MERNCHAT,
-  },
   {
     id: 5,
-    name: "Movix",
+    name: "Movix Media Explorer",
     description:
-      "Embark on a cinematic journey with my project fueled by the TMDb API and brought to life with React. From blockbuster hits to hidden gems, discover a world of movies and TV shows at your fingertips. Through this project, I've learned and implemented the intricacies of API integration, data retrieval and manipulation, as well as invaluable insights into user experience design.",
-    tools: ["React", "Redux", "GIT", "SCSS", "React Router", "GIT"],
+      "Cinematic discovery web application powered by the TMDb API with responsive search, category filtering, and video trailers.",
+    tools: ["React", "Redux", "SCSS", "React Router", "TMDb API", "Git"],
     code: "",
     demo: "https://movie-site-five-psi.vercel.app/",
     image: movix,
-    role: "Frontend Engineer",
+  },
+  {
+    id: 6,
+    name: "Real-time MERN Chat",
+    description:
+      "Real-time communication application built with Socket.io, Node.js, Express, MongoDB, and React with responsive UI.",
+    tools: ["React", "Socket.io", "Node.js", "Express", "MongoDB", "Chakra UI", "Git"],
+    code: "",
+    demo: "https://mern-chat-app-4d9o.onrender.com/",
+    image: MERNCHAT,
   },
 ];
 
@@ -156,41 +97,28 @@ export const wordpressProjectsData = [
     id: 1,
     name: "BMW TechWorks India",
     description:
-      "Our team has built and styled a custom WordPress theme for BMW TechWorks India, a joint venture between BMW and Tata Technologies. I implemented interactive animations and a responsive layout, and automated build tools, delivering a polished, performance-optimized website that aligns with the brand’s corporate voice.",
-    tools: ["PHP", "MySQL", "SCSS", "JQuery", "JS", "GIT", "NPM", "GULP", "GSAP"],
-    role: "Frontend Developer",
+      "Contributed to frontend development and custom WordPress theme styling for BMW TechWorks India, a joint venture between BMW and Tata Technologies. Implemented interactive GSAP animations, responsive layouts, and automated build workflows.",
+    tools: ["WordPress", "PHP", "SCSS", "JavaScript", "GSAP", "Gulp", "Git"],
     code: "",
     demo: "https://bmwtechworks-2025.wpstaging.amura.in/",
     image: bmwtecworks,
   },
   {
     id: 2,
-    name: "SANY",
+    name: "SANY India",
     description:
-      "Our team has built this visually stunning site for sany india using wordpress CMS. I have worked on this as one of the primary frontend developers. Sany India's website serves as a comprehensive online platform showcasing the company's innovative range of construction machinery and equipment.",
-    tools: ["PHP", "MySQL", "SCSS", "JQuery", "JS", "GIT", "NPM", "GULP"],
-    role: "Frontend Developer",
+      "Contributed as one of the primary frontend developers on the corporate website for SANY India, showcasing their extensive range of construction machinery and industrial equipment.",
+    tools: ["WordPress", "PHP", "SCSS", "jQuery", "JavaScript", "Gulp", "Git"],
     code: "",
     demo: "https://www.sany.in/",
     image: sany,
   },
   {
     id: 3,
-    name: "HRONE",
+    name: "HRONE Cloud",
     description:
-      "The HRONE website is a dynamic platform designed by our team to revolutionize human resources management for modern businesses. I have created lot of animations for this site, parallax effect, a timeline section that moves horizontally as you scroll and a header that is very dynamic and yet customizable.",
-    tools: [
-      "PHP",
-      "MySQL",
-      "SCSS",
-      "JQuery",
-      "JS",
-      "GIT",
-      "NPM",
-      "GULP",
-      "GSAP",
-    ],
-    role: "Frontend Developer",
+      "Contributed to frontend development for HRONE's human resources platform, building complex scroll-triggered GSAP animations, parallax effects, an interactive horizontal timeline, and dynamic headers.",
+    tools: ["WordPress", "PHP", "SCSS", "JavaScript", "GSAP", "Gulp", "Git"],
     code: "",
     demo: "https://hrone.cloud/",
     image: hrone,
@@ -199,90 +127,53 @@ export const wordpressProjectsData = [
     id: 4,
     name: "LandGlobal",
     description:
-      "The LandGlobal website is a premier online destination for real estate enthusiasts and investors seeking lucrative opportunities worldwide. With a sleek and intuitive design, LandGlobal offers a comprehensive platform to explore a diverse range of properties, including residential, commercial, and investment properties in various locations across the globe.",
-    tools: ["PHP", "MySQL", "SCSS", "JQuery", "JS", "GIT", "NPM", "GULP"],
-    role: "Frontend Developer",
+      "Contributed to the frontend development of the LandGlobal international real estate platform, ensuring responsive design, intuitive property searches, and consistent corporate styling.",
+    tools: ["WordPress", "PHP", "SCSS", "jQuery", "JavaScript", "Git"],
     code: "",
     demo: "https://land.global/",
     image: landglobal,
-  },
-  {
-    id: 5,
-    name: "Zygal",
-    description:
-      "I adeptly utilized Elementor, a powerful drag-and-drop page builder for WordPress, to craft a visually stunning and user-friendly interface for Zygal's website. Leveraging Elementor's extensive features and customization options, I seamlessly integrated dynamic elements and interactive components, showcasing my proficiency in harnessing cutting-edge web development tools to create an engaging online presence.",
-    tools: ["PHP", "MySQL", "JS", "CSS", "Elementor"],
-    role: "Frontend Developer",
-    code: "",
-    demo: "https://aiot.zygal.io/",
-    image: zygal,
   },
 ];
 
 export const shopifyProjectsData = [
   {
     id: 1,
-    name: "Symphony",
+    name: "Tutopia Learning App",
     description:
-      "Our team has undertaken a transformative revamp of our long-standing client, Symphony. This comprehensive overhaul breathes new life into Symphony's digital presence, enhancing its functionality, aesthetics, and user experience. With a focus on modern design principles and advanced technologies, our revamped Symphony platform offers a seamless and intuitive interface for users to engage with.",
-    tools: [
-      "Shopify-CLI",
-      "ThemeKit",
-      "GIT",
-      "NPM",
-      "GULP",
-      "SCSS",
-      "JQuery",
-      "JS",
-    ],
-    role: "Frontend Developer",
+      "Educational e-commerce platform for students of Classes 7–12. Features course subscriptions, live class purchases, printed notes delivery, and streamlined checkout on Shopify.",
+    tools: ["Shopify CLI", "ThemeKit", "Liquid", "SCSS", "JavaScript", "Git"],
+    code: "",
+    demo: "https://shop.tutopialearningapp.com/",
+    image: tutopia,
+  },
+  {
+    id: 2,
+    name: "Symphony Limited",
+    description:
+      "Contributed as frontend developer in a comprehensive store revamp for consumer cooling brand Symphony, enhancing theme functionality, shopping flow, and responsive user experience.",
+    tools: ["Shopify CLI", "ThemeKit", "Liquid", "SCSS", "JavaScript", "Git"],
     code: "",
     demo: "https://shop.symphonylimited.com/",
     image: symphony,
   },
   {
-    id: 2,
-    name: "Ari-Health",
+    id: 3,
+    name: "Ari-Health (Amarantha)",
     description:
-      "Our team has meticulously crafted a bespoke website for Amarantha, featuring a custom-built theme on Shopify. .Specializing in ayurvedic products, this upcoming digital platform is set to redefine online wellness shopping.With meticulous attention to detail and a deep understanding of Amarantha's brand identity, our team has created a unique theme that seamlessly blends functionality with aesthetics.",
-    tools: [
-      "Shopify-CLI",
-      "ThemeKit",
-      "GIT",
-      "NPM",
-      "GULP",
-      "SCSS",
-      "JQuery",
-      "JS",
-    ],
-    role: "Frontend Developer",
+      "Contributed to building a custom-tailored Shopify theme for Amarantha Ayurvedic wellness products, emphasizing clean product storytelling and high-converting checkout flows.",
+    tools: ["Shopify CLI", "ThemeKit", "Liquid", "SCSS", "JavaScript", "Git"],
     code: "",
     demo: "https://amarantha.in/",
     image: ari,
   },
   {
-    id: 3,
+    id: 4,
     name: "Nisarg Herbs",
     description:
-      "Welcome to the Nisargherbs website, where nature meets wellness. As a trusted provider of herbal products and supplements, Nisargherbs has been empowering individuals on their journey to holistic health for years. Our website serves as a comprehensive hub for those seeking natural remedies and wellness solutions.",
-    tools: ["Shopify-CLI", "ThemeKit", "GIT", "JQuery", "JS"],
-    role: "Frontend Developer",
+      "Contributed to store customization and UI optimization for Nisarg Herbs on Shopify, providing an intuitive herbal catalog and streamlined user navigation.",
+    tools: ["Shopify CLI", "ThemeKit", "Liquid", "JavaScript", "Git"],
     code: "",
     demo: "https://www.nisargaherbs.com/",
     image: nisarg,
   },
 ];
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-//     image: crefin,
-// },
