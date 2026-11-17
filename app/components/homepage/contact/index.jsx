@@ -59,6 +59,7 @@ function ContactSection() {
           <div className="mt-8 lg:mt-16 flex items-center gap-5 lg:gap-10">
             <Link
               target="_blank"
+              rel="noopener noreferrer"
               href={personalData.github}
               aria-label="GitHub Profile"
             >
@@ -69,6 +70,7 @@ function ContactSection() {
             </Link>
             <Link
               target="_blank"
+              rel="noopener noreferrer"
               href={personalData.linkedIn}
               aria-label="LinkedIn Profile"
             >

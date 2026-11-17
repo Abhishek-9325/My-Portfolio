@@ -13,6 +13,7 @@ function Footer() {
             Portfolio designed &amp; developed by{" "}
             <Link
               target="_blank"
+              rel="noopener noreferrer"
               href="https://www.linkedin.com/in/abhishek-mourya-b48a27289"
               aria-label="Abhishek Mourya LinkedIn Profile"
               className="text-[#16f2b3] font-medium hover:underline"
